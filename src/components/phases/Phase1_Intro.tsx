@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useAppStore } from '@/store/useAppStore';
+import { useAppStore } from '../../store/useAppStore';
 
 export default function Phase1_Intro() {
   const setPhase = useAppStore((state) => state.setPhase);
